@@ -17,16 +17,16 @@ One of HGTV Network's couples is moving to King Country and HGTV does not want t
 5.	Sqft_basement when new_sqft_basement was created 
 ## EDA
  The most infulencial feature was the grade classification given to the home
- (grade vs mean price bar graph )
+![](https://github.com/laurencoats/Phase2-project-/blob/main/PricevsGrade.png)
 ## Modeling 
 - The best model balanced the features in a way that makes since and reflected what was found in the exploration phase.For this model dummie variables where used after spliting up the area into 30 section since sepratating by zip code resulted in an over fit line.  
 - As expected location created a large range of price both negatively and positivly. 
 - The coefficent for grade increased as the grade increase.
 - Waterfront and view where favorite to increased prices.
-(graph)
+![](https://github.com/laurencoats/Phase2-project-/blob/main/LinearRegression.png)
 
 Train RMSE: 114709.77278945922
-Test RMSE: 115242.927144988
+<br />Test RMSE: 115242.927144988
 ## Conclusion / Future Work 
 1.	Figure what makes a grade 8 home vs grade 13
 2.	Compare our target home type  to the target home of other shows on HGTV 
